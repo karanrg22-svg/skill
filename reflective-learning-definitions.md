@@ -25,3 +25,23 @@ The fault line is process versus outcome. Kolb says reflection happened because 
 Moon's version. When I actually reflect on something, I don't march through four labeled stages in order. It's messier than that. Sometimes I notice the mismatch before I've even finished the experience; sometimes it hits me days later out of nowhere. What tells me reflection happened isn't that I completed a cycle, it's that I catch myself thinking about the thing differently than I did before.
 
 Kolb falls short because his model can't tell the difference between real reflection and going through the motions. You can sit down, dutifully narrate what happened, generalise a lesson from it, and never actually change your mind about anything. I've done that: written a tidy after-action summary that hit every stage and taught me nothing, because I was performing the process rather than letting the experience unsettle what I already believed. Moon's test catches that. If my understanding didn't shift, I didn't reflect, no matter how many stages I ticked off.
+
+## 6. Compare reflective models critically (400 words)
+
+| Model | Mechanism | Limitation (Boud, Keogh & Walker, 1985) |
+|---|---|---|
+| Kolb (1984) | Learning runs through four fixed stages, concrete experience, reflective observation, abstract conceptualisation, active experimentation, feeding back into a new experience each time round | Too linear and stage-locked; treats reflection as a rational process that always resolves into a generalisable rule, with feeling folded into "experience" instead of dealt with directly |
+| Gibbs (1988) | Reflection follows six structured prompts in sequence: description, feelings, evaluation, analysis, conclusion, action plan | Still a fixed script you move through in order, so it can collapse into a form-filling exercise; giving feelings one slot out of six still treats emotion as a checkbox rather than something that can derail or drive the whole process |
+| Schön (1983) | Reflection happens either mid-situation, adjusting on the fly as it unfolds (reflection-in-action), or afterward, reconstructing and reinterpreting once it's over (reflection-on-action) | Reflection-in-action is tacit and instantaneous, so it's nearly impossible to observe, evidence, or teach; the model assumes a level of intuitive expertise a novice hasn't built yet, and gives almost no procedural guidance |
+
+Kolb assumes reflection is basically rational: run the four stages in order, extract a rule, test it, done. Boud, Keogh & Walker's sharpest objection is that this buries feeling inside the label "experience" instead of working with it directly. For them, emotion isn't incidental, it shapes what a person even notices and what they're willing to admit to themselves; a model with no explicit place for that will quietly filter out anything the learner finds uncomfortable.
+
+Gibbs answers half of that critique by giving feelings their own stage. But the deeper objection survives: naming "feelings" as step two of six still treats emotion as something you pass through on the way to analysis, not something that can reroute or stall the whole cycle. Gibbs is also still linear, structuring reflection as a sequence that assumes it's a tidy, conscious, always-completable act. Real reflection loops, stalls, and gets abandoned halfway more often than either model admits.
+
+Schön breaks from both by splitting reflection into what happens mid-action and what happens after. That's close to what Boud, Keogh & Walker were pushing at: reflection isn't always a discrete episode you sit down to perform. But Schön's model has the opposite weakness. Reflection-in-action is nearly impossible to demonstrate, since by definition it's tacit and instant, buried inside expertise a beginner hasn't built yet.
+
+Of the three, Gibbs would break down fastest on me this term. Its six-stage script only works with time and distance from the event, and most of what I need to reflect on happens mid-crisis, not after it. Kolb at least tolerates a delayed, generalised pass at the same material. Schön is the only one built for the moment itself.
+
+That's also the real gap in Kolb and Gibbs. Neither has a mechanism for reflection-in-action; both only ever reconstruct after the fact. Judged against Schön's split, they aren't wrong, they're half a theory each, covering only the on-action side of what reflection actually is.
+
+*(Sub-questions 5–8 were read and folded into the comparison above rather than answered as a separate numbered list, per your instruction.)*
