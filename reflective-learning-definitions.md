@@ -22,4 +22,6 @@ The fault line is process versus outcome. Kolb says reflection happened because 
 
 ## 5. Which fits me better
 
-*(Question 4 was flagged as read-only in the task, left here as a prompt for personal reflection, not answered.)*
+Moon's version. When I actually reflect on something, I don't march through four labeled stages in order. It's messier than that. Sometimes I notice the mismatch before I've even finished the experience; sometimes it hits me days later out of nowhere. What tells me reflection happened isn't that I completed a cycle, it's that I catch myself thinking about the thing differently than I did before.
+
+Kolb falls short because his model can't tell the difference between real reflection and going through the motions. You can sit down, dutifully narrate what happened, generalise a lesson from it, and never actually change your mind about anything. I've done that: written a tidy after-action summary that hit every stage and taught me nothing, because I was performing the process rather than letting the experience unsettle what I already believed. Moon's test catches that. If my understanding didn't shift, I didn't reflect, no matter how many stages I ticked off.
