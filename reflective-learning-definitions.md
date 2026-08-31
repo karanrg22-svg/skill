@@ -45,3 +45,15 @@ Of the three, Gibbs would break down fastest on me this term. Its six-stage scri
 That's also the real gap in Kolb and Gibbs. Neither has a mechanism for reflection-in-action; both only ever reconstruct after the fact. Judged against Schön's split, they aren't wrong, they're half a theory each, covering only the on-action side of reflection.
 
 *(Sub-questions 5–8 were read and folded into the comparison above rather than answered as a separate numbered list, per your instruction.)*
+
+## 7. PEEL: reflective learning and manager self-awareness (350 words)
+
+Reflective learning builds a manager's self-awareness by making an in-the-moment emotional reaction something they can examine rather than something that quietly steers the response underneath them. That's a specific claim about mechanism, not a vague endorsement of "reflecting more." It puts weight on a particular theory of what emotional intelligence even is.
+
+Goleman (1998) treats EI as a set of competencies, self-awareness among them, that a person can build through practice and feedback, the same way you'd build a skill. Mayer & Salovey (1990) treat it as a more stable ability: a capacity to perceive, understand, and manage emotion that behaves more like an aptitude you measure than a muscle you train. My claim sits with Goleman. If reflective learning can move a manager's self-awareness at all, self-awareness has to be a competency that practice shifts, not a fixed ceiling set by temperament.
+
+Evidence [replace with your own specific moment; this is a template of the shape, not real evidence]: A manager cut off a team member mid-sentence after her data was challenged in a review. She stopped herself and said, "that came out sharper than I meant, go on," then let the team member finish. Two of the ideas she'd dismissed thirty seconds earlier made it into the final plan.
+
+Argyris & Schön's (1978) double-loop learning is what separates that from a shrug and an apology. Single-loop correction would have looked like this: notice the tone was harsh, soften it, move on, decision unchanged. What actually happened cuts deeper. Stopping and re-inviting the input only makes sense if she questioned the governing assumption underneath the interruption, that being right on the numbers made her right about the plan, and that pushback was a threat to manage rather than information worth having. Revising the plan itself, not just the delivery, is the evidence that the assumption moved, not just the behaviour sitting on top of it.
+
+That's the same test Moon's definition applies to reflection in general. A correction to the surface behaviour with the underlying belief intact isn't reflective learning under either Goleman's or Argyris & Schön's terms. It's compliance with a script, and it resets the moment the pressure returns.
