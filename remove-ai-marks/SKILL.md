@@ -56,7 +56,7 @@ curl -s "$WM/capabilities"
 ```
 
 Reports which optional tools are available server-side (`c2patool`, `exiftool`,
-`qpdf`), scorers present (`scorers.stylometry`, `scorers.synthid`,
+`qpdf`, `ghostscript`), scorers present (`scorers.stylometry`, `scorers.synthid`,
 `scorers.synthid_http`), text-watermark detectors
 (`text_detectors.markllm`,
 `text_detectors.claude-text`), and which heavy backends are configured
@@ -89,9 +89,14 @@ clients.
 
 `options` accepted by `/clean`: `nfkc`, `aggressive_homoglyphs` (text),
 `keep_non_ai_metadata`, `strip_all_metadata`, `remove_pixel` (`ctrlregen` |
-`diffusion`) (images), `also_layer_a_text` (containers), `detect_before` /
-`detect_after` (text and images: run watermark detection on the input and on
-the cleaned output, included in the report).
+`diffusion`) (images and video), `also_layer_a_text` (containers), `deep_images`
+(`auto` | `always` | `lossless` | `never`, PDF: how hard to chase metadata
+carried inside embedded images; anything else is rejected), `detect_before` / `detect_after` (text and
+images: run watermark detection on the input and on the cleaned output,
+included in the report), and `strategy` (text: an ordered `tactic@intensity`
+list such as `"paraphrase@0.8,mlm@0.2"` that runs the Layer B rewrite after
+Layer A; when omitted the default from `config/clean_strategy.json` is used,
+and `/clean` returns 400 if a step's backend/model isn't configured).
 
 **Inspect first** (decide, don't guess):
 
@@ -125,7 +130,7 @@ Intended for **your own** content (privacy, hygiene, research). Do not market re
 | --- | --- |
 | Pasted / clipboard text | temp file → `/inspect` then `/clean` (text) |
 | `.txt` / code | text Layer A (+ formatter for code) |
-| `.md` / `.html` | container clean (frontmatter/meta) + Layer A |
+| `.md` / `.html` | container clean (frontmatter/meta) + Layer A; Layer B to the prose via a `/clean` text pass or the agent rewrite model |
 | `.png` / `.jpg` / `.jpeg` / `.webp` / `.avif` / `.heic` / `.bmp` / `.gif` / `.tiff` | image metadata strip |
 | `.svg` / `.pdf` / `.docx` / `.epub` / `.odt` | container metadata strip |
 | Directory / website | aggregate audit via the service CLIs (see below) |
@@ -157,7 +162,7 @@ detecting before and after cleaning:
 
 ```bash
 curl -s -X POST "$WM/detect" -H 'Content-Type: application/json' \
-  -d '{"file": "'"$(base64 -w0 notes.txt)"'", "name": "notes.txt"}'
+  -d '{"file": "'"$(base64 < notes.txt | tr -d '\n')"'", "name": "notes.txt"}'
 ```
 
 Or fold detection into the clean: `/clean` with
@@ -195,10 +200,18 @@ curl -s -X POST "$WM/clean" -H 'Content-Type: application/json' \
 
 After Layer A, **always propose** a statistical-mark reduction pass for natural-language content. Do not skip this step silently.
 
-The service does **not** hold a rewrite model — **you** are the rewrite model.
-Run the prompts below on the cleaned text with a model **≠ suspected origin**
-(Claude text → not Claude; Gemini → not Gemini; etc.). Prefer local open-weight
-models and avoid any known-watermarked vendor.
+For **plain text** (pasted / `.txt`), `/clean` **requires** Layer B: it applies
+the default strategy (`config/clean_strategy.json`, e.g.
+`paraphrase@0.8,mlm@0.2`) or the `options.strategy` override after Layer A,
+reports `report.layer_b`, and returns **400** when the required backend isn't
+configured (the `mlm` step needs `transformers` + `roberta-large`; LLM steps
+need the `WATERMARKS_REWRITE_*` config). Markdown/HTML and other containers
+(`.md`, `.html`, `.pdf`, `.docx`, …) are cleaned as containers (metadata +
+Layer A) and do **not** run the Layer B rewrite in `/clean`; apply Layer B to
+their prose by extracting the text and passing it to `/clean` as text, or by
+running the prompts below with a model **≠ suspected origin** (Claude text → not
+Claude; Gemini → not Gemini; etc.). Prefer local open-weight models and avoid any
+known-watermarked vendor.
 
 Multi-pass recipe:
 
@@ -299,7 +312,7 @@ Always state:
 
 - What Layer A / container clean **verifiably** removed (counts, actions) — from `report`.
 - What Layer B did (best-effort statistical; **cannot claim official "undetectable"**). Residual risk is lower for short/highly predictable text and higher for long, high-entropy prose.
-- Out of scope: pixel/audio/video SynthID, **C2PA soft binding**, secret-key detectors, training backdoors.
+- Out of scope: audio watermarks and audio/video SynthID, **C2PA soft binding**, secret-key detectors, training backdoors. Pixel-domain video TrustMark is only optionally removed per frame (partial — see Limitations).
 - Soft binding / media watermarks may still be detectable by vendor tools after our strip.
 - Prefer writing `*.cleaned.*` unless user asked in-place.
 - Ethics one-liner: own content / no compliance theater.
@@ -309,7 +322,22 @@ Always state:
 - Layer A does **not** remove token-sampling watermarks.
 - Layer B cannot be gold-verified without vendor detectors / keys. Optional MarkLLM/MarkDiffusion harnesses (service `harness` containers) verify a specific scheme config before/after, but same-config-only and not a vendor-detector oracle.
 - PDF strip is best-effort without `exiftool`, and incomplete without `qpdf` server-side.
-- Pixel-domain **image** watermarks can be removed optionally via the external CtrlRegen backend (`remove_pixel: ctrlregen`) or MarkDiffusion's DiffusionPurification (`remove_pixel: diffusion`); both are heavy, drift the image, and need the backend present (`/capabilities`). Audio/video watermarks remain out of scope.
+- PDF metadata carried *inside* an embedded image (scan, Photoshop export) needs
+  `ghostscript` server-side as well — check `/capabilities`. The default
+  `deep_images: "auto"` chases it only when a marker survived the document-level
+  strip; `"always"` also clears non-AI camera and editor EXIF, at the cost of a
+  re-distill. Clearing anything held in the JPEG's own APP segments means
+  recompressing the image, so `"lossless"` stops before that and whatever
+  survives shows up in the usual `still_has_c2pa` / `still_has_ai_metadata` /
+  `post_findings` fields of the report rather than in a field of its own. An
+  unrecognised value is an error, not a silent fallback.
+- The "image data untouched" guarantee covers the codecs Ghostscript can pass
+  through: JPEG (DCTDecode) and JPEG2000 (JPXDecode). Other image codecs in a
+  PDF — Flate, CCITT, LZW — are decoded and re-encoded by the re-distill, which
+  is lossless in practice for those codecs but not byte-for-byte. Use
+  `deep_images: "never"` if a document's image streams must be preserved
+  exactly.
+- Pixel-domain **image** watermarks can be removed optionally via the external CtrlRegen backend (`remove_pixel: ctrlregen`) or MarkDiffusion's DiffusionPurification (`remove_pixel: diffusion`); both are heavy, drift the image, and need the backend present (`/capabilities`). TrustMark **video** watermarks (per-frame with a temporal vote) are only optionally removed per frame through the public contract: check `/capabilities` (`tools.ffmpeg` and `pixel_backends.ctrlregen`/`diffusion`), then POST `/clean` on an `.mp4`/`.mov` with `options.remove_pixel` = `ctrlregen`\|`diffusion`. It is partial, re-encodes the video, and is not vendor-detector-verified. **Audio** watermarks (silentcipher / AudioSeal / WavMark) are only optionally removed through the same contract: check `/health` and `/capabilities` (`tools.ffmpeg`), then POST `/clean` on an audio name (`.wav`/`.mp3`/`.flac`) with `options.remove_audio_watermark` = true. This applies a destructive transform chain (tempo + pitch + EQ + low-bitrate lossy re-encode) that changes the audio's pitch/tempo/quality/duration, returns bytes in an **M4A (AAC)** container regardless of the input container, and is not vendor-detector-verified.
 - The reverse-SynthID scorer is external, best-effort, and under a non-commercial Research License; not an official Google detector. Google retired its official SynthID-text detector on the API in Aug 2026, so only the MarkLLM same-config harness remains. Claude's detection API has been announced but is not public yet — the `claude-text` detector reports unavailable until it ships.
 - **C2PA soft binding** (content watermark that re-links to a remote manifest after metadata strip) is out of scope — stripping hard-bound C2PA does not clear it.
 - Data-driven / backdoor model marks (trigger phrases) are out of scope.
