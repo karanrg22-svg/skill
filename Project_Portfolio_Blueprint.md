@@ -456,3 +456,39 @@ Describe the tool generically ("an AI-supported imaging tool"). Do not name the 
 
 ## 17. PERMISSION STATUS
 Student reports permission is now **granted** (tutor and placement provider). **Keep the written confirmation (email or message) saved** in case it is queried. The case basis in sections 14–16 is now confirmed. Remaining inputs: what the flag conflicted with (generic), outcome after telling the supervisor, and the student's own learning.
+
+---
+
+## 18. FINAL CASE INPUTS AND HOW TO TURN THEM INTO 80+ ANALYSIS
+
+**Student's answers:** flag seemed wrong for reasons she could not clearly state ("just a feeling"); she told her supervisor; she saw no clear follow-up; main learning = never accept AI output unchecked; would next time record her concern.
+
+### 18.1 Turn each answer into critical material (do not hide the weak points; analyse them)
+| Student answer | Weak if written plainly | Strong (analytical) framing |
+|---|---|---|
+| "Just a feeling" | Sounds unprofessional | **Tacit/intuitive knowledge and its limits.** Cite Polanyi (1966), Benner (1984) novice-to-expert, Schön (1983) reflection-in-action. Evaluate: intuition is a legitimate safety signal but unreliable evidence, so it should trigger a check, not a conclusion. Say clearly what you could and could not know as a student. |
+| "No clear follow-up" | Leaves the case without an ending | **Failure of the feedback loop.** Evaluate learning culture (Berwick 2013; Francis 2013; Reason 2000): a concern with no visible outcome discourages future speaking up and wastes learning. State honestly you do not know the outcome; analyse what that implies and what a closed loop would look like. Do not guess or invent a result. |
+| "Never accept AI output unchecked" | A cliché, and not even achievable (a student cannot verify imaging) | **Refine it.** Verification must be proportionate and done by the right person. Your realistic responsibility is to *notice, question and escalate*, and to avoid recording an uncertain output as fact. Argue where "checking" ends for a student and for a registered clinician. |
+| "Record my concern" | A small, obvious action | **Link to record-keeping and incident learning.** Accuracy and contemporaneous records (UK GDPR Art 5(1)(d); Records Management Code of Practice; CQC Reg 17); local incident reporting. Evaluate what a good concern note contains (what I saw, why I was uncertain, who I told, when) without including patient-identifiable information. |
+
+### 18.2 Final Section 2 map (3,000 words)
+- **2.1 (350):** anonymised account (about 100): inpatient ward, AI-supported imaging tool, your documentation task, the flag that seemed inconsistent, telling your supervisor. Then why it matters (80) and approach/limits (170).
+- **2.2 Accuracy, safety, accountability (850):** automation bias and documenting uncertain output; why tools can fail or mismatch settings; medical-device and clinical safety framework; who is accountable; the student's limits; the "just a feeling" analysis.
+- **2.3 Communication, escalation, speaking up (650):** why and how you escalated; psychological safety; SBAR; power gradients; the missing follow-up and the learning loop.
+- **2.4 Records integrity, transparency, confidentiality (500):** accuracy principle; risk of copying AI output into records; patient transparency; confidentiality.
+- **2.5 Integrated evaluation and solutions (400):**
+  - S1 *Concern-and-closure routine:* a short structured note of the concern plus a defined route for feedback, so students and staff see what happened. Evaluate against workload, culture, confidentiality.
+  - S2 *"Flag as unverified" documentation convention:* AI-derived entries labelled as AI-suggested until a registered clinician confirms them (evaluate benefit v clutter and unintended effects).
+  - S3 *Induction on AI tools for all staff and students:* what the tool does, known limits, and who to ask.
+  - Prioritise, justify, and state limits (single case, no outcome known, no empirical data).
+- **2.6 Learning and Gibbs action plan (250):** your refined learning and concrete future behaviours.
+
+### 18.3 Writing rules specific to this case
+- Say "appeared inconsistent" and "I was unable to say exactly why"; never "the AI was wrong".
+- State plainly that the outcome is unknown to you.
+- Describe the tool generically; no clinical details, product, hospital or department names beyond "inpatient ward".
+- Avoid blaming staff or the hospital. Evaluate systems and your own practice.
+- Law and guidance statements must be verified at source before use.
+
+### 18.4 Status
+All required inputs are now supplied: permission, setting, tool type, task, concern, action, outcome, learning, and next-time. This blueprint is ready to use as the drafting plan. **Drafting must be done by the student in her own words**; further help should be feedback on her drafts.
