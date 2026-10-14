@@ -376,3 +376,44 @@ The eight items are **topic headings, not authors**. Get the actual set readings
 5. Who else was involved (roles only) and how you communicated.
 6. What went well, what concerned you, what you would do differently.
 7. The placement agreement/confidentiality rules, and the tutor's written confirmation.
+
+---
+
+## 15. CONFIRMED CASE FACTS AND REVISED ISSUE PLAN (supersedes care-planning law in 2.2–2.4)
+
+**Confirmed:** UK hospital placement (several weeks, formal, via college). AI tool = **imaging/diagnostics**. Student's role = **used its output in her tasks**. Main issue = **accuracy/safety**. Permission: **placement provider yes, tutor NOT yet asked**.
+
+### 15.1 Blocking step
+Ask the tutor in writing **before drafting**: does a formal college placement count as "permitted" for the "own learning only" option? If the answer is no, switch to a published case. Do not write 2,000+ words on an unconfirmed basis.
+
+### 15.2 What changes because this is imaging AI, not care planning
+- **Drop or reduce:** Care Act 2014, NICE NG86 (adult social care), and the Mental Capacity Act (keep only if capacity actually arose). Care-planning content no longer fits a hospital imaging setting.
+- **Add (verify each):** AI diagnostic software is normally regulated as a **medical device** (Medical Devices Regulations 2002, as amended; MHRA guidance on software and AI as a medical device); UKCA/CE marking; NHS clinical safety standards DCB0129 (manufacturer) and DCB0160 (deploying organisation); HCPC/GMC standards on practitioners' responsibility for reporting decisions; Royal College of Radiologists guidance on AI; NHS England/NHS AI Lab material on the AI Diagnostic Fund. Keep CQC Regulation 12 (safe care and treatment) and 17 (good governance), which apply to hospitals, and the Health and Social Care Act 2008 (Regulated Activities) Regulations 2014. Keep UK GDPR/DPA 2018, common-law confidentiality, and the Caldicott principles.
+- **Student-status limit:** as a placement student you were not the reporting clinician. Your analysis is about *your* role: using output in tasks, what you understood about its reliability, what you checked, and when you should have escalated. Do not claim responsibility that belonged to registered staff, and do not describe your task in a way that suggests you interpreted images unsupervised.
+
+### 15.3 Revised three issues (order matches the confirmed main issue)
+1. **Issue 1 (lead, ~850 words): Accuracy, safety and professional accountability.** Take the words from the old 2.3 plus part of 2.2.
+   - Mechanisms of error: false negatives and positives, automation bias and complacency, anchoring (candidate evidence: Parasuraman and Manzey 2010; Goddard et al. 2012; Dratsch et al. 2023 on automation bias in mammography; Tversky and Kahneman 1974 **[verify all]**).
+   - Performance and bias: evidence that AI performance varies by population and setting (Obermeyer et al. 2019; Seyyed-Kalantari et al. 2021 on chest radiograph underdiagnosis bias; McKinney et al. 2020 on breast screening AI **[verify]**). Evaluate how well published performance data transfers to a real hospital.
+   - Regulation: medical-device status, DCB0129/0160, CQC Reg 12 and 17. **Critical point:** regulation approves the *product*, but safe use depends on local governance and on trained staff who know its limits.
+   - Accountability: registered clinician remains responsible; "responsibility gap" (Matthias 2004); where a student sits in that chain and why asking questions was appropriate.
+2. **Issue 2 (~650 words): Communication, escalation and teamwork.** Who checks AI output, how disagreements are raised, psychological safety (Edmondson 1999), structured communication (SBAR), interprofessional working (Nancarrow et al. 2013; Reeves et al. 2017). Use your reflection on what you did when you were unsure.
+3. **Issue 3 (~500 words): Transparency, consent and confidentiality.** Were patients told AI supported their imaging? UK GDPR transparency; lawful basis is usually not consent for direct care; common-law confidentiality; Caldicott; NHS Constitution on involvement. Evaluate whether current requirements ensure meaningful understanding. Keep this to what you personally saw or know; do not guess hospital practice.
+
+New 2.2–2.4 word totals: 850 + 650 + 500 = 2,000 (was 2,000 in the original plan: 700 + 750 + 550). 2.1 stays at 350, 2.5 at 400, 2.6 at 250, giving 3,000.
+
+### 15.4 Revised solutions (2.5), focused on imaging AI
+- **S1 Structured "independent look first" step:** where clinical practice allows, the clinician forms an initial read before viewing the AI flag (reduces anchoring and automation bias; evidence is emerging and mixed, so state limits).
+- **S2 Local validation and audit:** post-deployment performance monitoring by patient group, with feedback loops to the supplier (DCB0160, CQC Reg 17).
+- **S3 Training and escalation norms for all staff including students:** what the tool can and cannot do, and a clear route to query an output without blame.
+Evaluate each for effectiveness, cost, workload, and unintended effects (e.g. alert fatigue).
+
+### 15.5 Facts still needed (nothing invented)
+1. Country is UK, setting hospital: **which department** (generic: radiology, emergency, ward)? Keep generic.
+2. In 2–3 lines: what task you did with the AI output and the specific moment where accuracy/safety became a concern.
+3. What you did about it, and what happened.
+4. What you would do differently.
+5. Tutor's written answer on permission.
+
+### 15.6 Extra guardrail for this case
+Describe the tool generically ("an AI-supported imaging tool"). Do not name the product, hospital, department size, scanner type or clinical detail that could identify the patient. Describe no actual image findings.
