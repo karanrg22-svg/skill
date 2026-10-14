@@ -314,3 +314,22 @@ Reference mix for the list: Section 2 should hold the strongest peer-reviewed de
 - [ ] 35–45 verified references; Harvard consistent; no fabricated or misquoted sources
 - [ ] Word count within limit; Arial 12; 1.5 spacing; cover page; file name `SRN Project Summative.docx`
 - [ ] Entire text in your own words; no pasted prior coursework; AI used for planning only
+
+---
+
+## 13. Module reading list mapped to the portfolio (added after receiving the list)
+
+The eight items are **topic headings, not authors**. Get the actual set readings from the module page (VLE) and cite them where they fit. Using tutor-set readings shows alignment with the module and helps K2. Item 2 reads "personal banding"; I have assumed it means personal **branding**. Check this.
+
+| # | Reading-list topic | Where it goes | How to use it critically (not just name it) |
+|---|---|---|---|
+| 1 | Reflective writing and self-assessment | 1.4, 2.6, 3.2 | Evaluate the models (Gibbs, Schön, Rolfe). Acknowledge the limits of self-assessment and the mitigation (supervisor feedback, 360° tools). Supports K2 and C1. |
+| 2 | Professional identity and personal branding | 1.1, 1.5, 3.1 | Identity as something built through practice and standards. In 3.1, show how you will present that identity (CV, supervisor references, professional profile) to employers. Critique "branding" language: it can reward self-presentation over practice. |
+| 3 | Documenting core competencies and skills | 1.4, 3.2 | Name the framework you map to (Care Certificate, Healthcare Leadership Model). Evaluate what documentation proves and what it cannot (a record of attending is not competence). |
+| 4 | Evidence-based practice and critical thinking | 1.4, all of Section 2, 2.5 | Hierarchy of evidence v person-centred social care. Grade the quality of each source you use (a small study, a regulator's guidance, a systematic review). Core to C2. |
+| 5 | Communication and interpersonal skills documentation | 2.4, 3.2 | Evidence for communication strengths (structured handover, reporting changes in condition). Evaluate tools such as SBAR. Keep incidents anonymous. |
+| 6 | Quality improvement and project experience | 2.5, 3.3 | Use QI method (PDSA, audit) to design Solution S1 as a small testable change, with measures and a review point. In 3.3, set one real QI project as a development goal. |
+| 7 | Professional development and continuing education | 3.3, 3.4 | CPD as a plan with evidence and review points, not a list of courses. Link every course to a named gap from 3.2. |
+| 8 | Ethical practice and professionalism | 1.3, 2.2, 2.3 | Standards and codes (Skills for Care Code of Conduct, NMC Code as comparator) applied to the case. Evaluate where codes are silent on AI. Supports K1. |
+
+**What the list tells you:** the module treats the portfolio as a professional development tool. Markers will expect Section 1 and Section 3 to show *how* you document, reflect and plan, not only *what* happened. Sections 1.4 and 3.2 should therefore cite the module readings directly.
