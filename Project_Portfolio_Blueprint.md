@@ -417,3 +417,37 @@ Evaluate each for effectiveness, cost, workload, and unintended effects (e.g. al
 
 ### 15.6 Extra guardrail for this case
 Describe the tool generically ("an AI-supported imaging tool"). Do not name the product, hospital, department size, scanner type or clinical detail that could identify the patient. Describe no actual image findings.
+
+---
+
+## 16. CASE FACTS CONFIRMED (multiple-choice answers) AND ANALYSIS CONSEQUENCES
+
+**Confirmed:** UK NHS hospital, **inpatient ward** (generic), formal college placement, several weeks. AI-supported **imaging** tool. Student's task: **supported documentation** using the tool's output. Concern: **an AI flag seemed wrong**. Student action: **told her supervisor**. Provider permission: yes. Tutor permission: **not yet asked (still blocking)**.
+
+### 16.1 Why this is a strong case
+- It shows **appropriate escalation**, which markers can credit under professionalism, accountability and C1 (self-analysis).
+- It gives a clean line of analysis: AI output → documentation → possible propagation of error into the record → human check → escalation.
+- It sits inside the student's real remit (documentation), so there is no need to claim clinical interpretation.
+
+### 16.2 Wording discipline (important)
+- Say the flag **"appeared inconsistent with"** [what? to be supplied: e.g. the ward's clinical information, staff assessment, the patient's presentation], **not** that "the AI was wrong". You are not qualified to judge, and the outcome may be unknown. State what you did know, what you did not know, and why escalating was the right call under uncertainty. This also shows epistemic humility, which markers reward.
+- Do not describe any real clinical finding, condition, body area or image.
+
+### 16.3 Revised law and policy for a documentation task (verify each)
+- **Accuracy and records:** UK GDPR Art 5(1)(d) (accuracy principle); Records Management Code of Practice (NHS England/NHSX); CQC Regulation 17 (accurate, complete records) and Regulation 12 (safe care and treatment); professional record-keeping standards (HCPC/NMC/GMC are comparators only for a student; follow placement policy).
+- **Automation and documentation risk:** an erroneous AI output copied into the record can mislead later clinicians (error propagation). Frame with Reason (2000) systems view; automation bias literature (Parasuraman and Manzey 2010; Goddard et al. 2012).
+- **Speaking up:** Freedom to Speak Up review (Francis 2015); NHS Constitution; Duty of Candour (Reg 20) at organisation level; psychological safety (Edmondson 1999). Evaluate why students find it hard to raise concerns (power gradients, uncertainty) and what made it possible here.
+- **Medical-device and clinical safety framework:** MHRA software-as-a-medical-device guidance; DCB0129/DCB0160; local incident reporting. Be careful: do not say whether the tool was compliant; say what the framework requires and where the student's role fits.
+- **Transparency and confidentiality:** UK GDPR transparency; common-law confidentiality; Caldicott principles. Keep to what the student personally knows.
+
+### 16.4 Revised issue structure for Section 2.2–2.4 (2,000 words, unchanged total)
+1. **Issue 1 (~850): Accuracy, safety and accountability.** Anchor: the flag seemed inconsistent. Analyse: why AI outputs can be wrong or misapplied (bias, setting mismatch, automation bias), who is accountable for checking output before it is documented, regulatory framework, and the limits of a student's role.
+2. **Issue 2 (~650): Communication, escalation and speaking up.** Student told the supervisor. Analyse: how and why; what made it possible; structured communication (SBAR); psychological safety; interprofessional checking; evaluate evidence quality (mostly hospital studies, mixed outcomes). Include a candid analysis of what you did well and what you could have done better (for example, documenting the concern, timing, asking how the tool is validated).
+3. **Issue 3 (~500): Records integrity, transparency and confidentiality.** Accuracy of records (Art 5(1)(d)); consequence of copying uncertain AI output into notes; transparency to patients; confidentiality. Evaluate whether current standards give a student enough guidance on documenting AI-derived information.
+
+### 16.5 Facts still needed (nothing invented)
+1. **Basis for suspecting the flag was inconsistent**, in generic terms (what did it conflict with?). Do not give clinical detail.
+2. **Outcome:** what did the supervisor do or say, and what happened next (if known)? If unknown, say so; do not invent an ending.
+3. **Your reflection:** what you would do differently, what you learned about AI and about speaking up.
+4. **Tutor's written confirmation** that a college placement counts as permitted. Also keep the provider's permission in writing.
+5. **Placement policy** on writing about the placement, and how the college wants it anonymised.
