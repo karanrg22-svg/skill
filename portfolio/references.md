@@ -26,9 +26,9 @@ Edmondson, A. (1999) 'Psychological safety and learning behavior in work teams',
 
 Finlay, L. (2008) *Reflecting on 'reflective practice'*. PBPL paper 52. Milton Keynes: The Open University.
 
-Francis, R. (2015) *Freedom to speak up: an independent review into creating an open and honest reporting culture in the NHS*. London: Freedom to Speak Up.
-
 Francis, R. (2013) *Report of the Mid Staffordshire NHS Foundation Trust Public Inquiry*. London: The Stationery Office.
+
+Francis, R. (2015) *Freedom to speak up: an independent review into creating an open and honest reporting culture in the NHS*. London: Freedom to Speak Up.
 
 Gibbs, G. (1988) *Learning by doing: a guide to teaching and learning methods*. Oxford: Further Education Unit.
 

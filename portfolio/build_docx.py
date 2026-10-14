@@ -13,9 +13,22 @@ for n in ['Heading 1','Heading 2','Title']:
     s.font.color.rgb=None; s.element.rPr.rFonts.set(qn('w:asciiTheme'),'') if False else None
     s.paragraph_format.line_spacing=1.5
 
+
+from docx.opc.constants import RELATIONSHIP_TYPE as RT
+from docx.oxml import OxmlElement
+def add_link(p,url):
+    rid=p.part.relate_to(url,RT.HYPERLINK,is_external=True)
+    h=OxmlElement('w:hyperlink'); h.set(qn('r:id'),rid)
+    r=OxmlElement('w:r'); rpr=OxmlElement('w:rPr')
+    f=OxmlElement('w:rFonts'); f.set(qn('w:ascii'),'Arial'); f.set(qn('w:hAnsi'),'Arial'); rpr.append(f)
+    c=OxmlElement('w:color'); c.set(qn('w:val'),'0563C1'); rpr.append(c)
+    u=OxmlElement('w:u'); u.set(qn('w:val'),'single'); rpr.append(u)
+    sz=OxmlElement('w:sz'); sz.set(qn('w:val'),'24'); rpr.append(sz)
+    r.append(rpr); tx=OxmlElement('w:t'); tx.text=url; r.append(tx); h.append(r); p._p.append(h)
 def runs(p,text):
-    for i,part in enumerate(re.split(r'(\*\*[^*]+\*\*|\*[^*]+\*)',text)):
+    for part in re.split(r'(\*\*[^*]+\*\*|\*[^*]+\*|https?://[^\s)]+[^\s).,;])',text):
         if not part: continue
+        if part.startswith('http'): add_link(p,part); continue
         if part.startswith('**'): r=p.add_run(part[2:-2]); r.bold=True
         elif part.startswith('*'): r=p.add_run(part[1:-1]); r.italic=True
         else: r=p.add_run(part)
