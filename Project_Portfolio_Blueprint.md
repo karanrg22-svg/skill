@@ -333,3 +333,46 @@ The eight items are **topic headings, not authors**. Get the actual set readings
 | 8 | Ethical practice and professionalism | 1.3, 2.2, 2.3 | Standards and codes (Skills for Care Code of Conduct, NMC Code as comparator) applied to the case. Evaluate where codes are silent on AI. Supports K1. |
 
 **What the list tells you:** the module treats the portfolio as a professional development tool. Markers will expect Section 1 and Section 3 to show *how* you document, reflect and plan, not only *what* happened. Sections 1.4 and 3.2 should therefore cite the module readings directly.
+
+---
+
+## 14. REVISED CASE BASIS (supersedes the "Mrs Okafor taught case" framing in 2.0 and 2.1)
+
+**Confirmed by student:** the case is a situation handled on a **formal college placement**, involving an **AI-supported tool**. "Mrs Okafor" is only a pseudonym. The student's roles and actions are to be set out in the reflection.
+
+### 14.1 Category and fit
+- Use the brief's option "permitted volunteering-based reflection on your own learning only". It is the nearest fit, **but permission is not assumed**. Get the module leader's or tutor's written confirmation that a formal college placement counts. If not, switch to a published case.
+- The brief says the module is **not a placement report**. Section 2 therefore analyses **the student's own decisions, reasoning and learning**, not the placement, the service or the person.
+- No observation of people, no data collection, no research. Write only from memory of what the student personally did.
+
+### 14.2 Legal and confidentiality guardrails (apply before and while writing)
+1. **Jurisdiction first.** Confirm the country of the placement. The planned law (Care Act 2014, Mental Capacity Act 2005, CQC regulations, UK GDPR/DPA 2018) applies to England (the MCA also to Wales). If the placement was elsewhere, the legal framework must change. Never apply English law to a non-English setting.
+2. **Check the placement agreement and provider policy** (college and placement provider) on confidentiality and on writing about placements. Follow the stricter rule.
+3. **No records, no screenshots, no copied text** from care plans, notes, handovers or the AI tool.
+4. **Genuine anonymisation, not just a changed name.** Remove names, setting, locations, dates, staff names, unusual clinical or family details and anything that could identify the person or colleagues. A pseudonym alone is only pseudonymisation, and the data may still count as personal data. State in one line that details are altered and anonymised.
+5. **Do not name the AI vendor or product.** Describe it generically ("an AI-supported care-planning tool"). Do not reveal confidential system features.
+6. **Do not accuse.** Frame legal points as "what the law required of the service/practitioner, and what I now understand" and as your learning, not as findings of unlawful conduct by named or identifiable people or organisations. You are a student, not a legal adviser. Use phrases such as "this raises a question under…" and "on my reading of…", supported by the cited source.
+7. **Safeguarding duty.** If reflecting reveals a risk of harm that was never raised, raise it with the placement supervisor/college first. Do not leave it only in an assessed document.
+8. **Law v guidance.** Separate binding law (statute, regulations) from guidance (NICE, ICO, NHS England, CQC guidance, professional codes). Cite each correctly and say which is which.
+9. **Verify every legal statement** against the primary source (legislation.gov.uk, ICO, CQC). Check recent changes (for example the Data (Use and Access) Act 2025 on automated decision-making) before writing.
+10. **Do not state AI facts you cannot support.** Describe only what you personally saw the tool do and what you personally did. Do not guess how it worked.
+
+### 14.3 Revised Section 2.1 (350 words)
+- **Account of the situation (100):** anonymised, in your own words: setting type (generic), the person (pseudonym, relevant needs only), the AI tool's role (generic), the decision you faced, **your role and what you did**.
+- **Why it matters (80):** same as before, citing policy on AI in care planning.
+- **Approach (170):** the three issues, why chosen, Gibbs plus its limits, and a short statement of the ethical and legal limits placed on the reflection (point 14.2), which also shows professionalism for K1.
+
+### 14.4 Effect on the issue sections
+- **Keep** 2.2 consent/confidentiality/autonomy, 2.3 safety/quality/accountability, 2.4 communication/teamwork, **only where the real placement supports them**. Replace "the case showed…" with "in my role I did… and the law/standards required…".
+- Each issue block gains a fixed move: *what I did → what the law/standards required → where my practice met or fell short of them → what I would do now and why.* Honest evaluation of your own limits scores under C1 and C2.
+- Section 2.6 (Gibbs action plan) becomes more important: concrete changes in your future practice.
+- Section 2.5 solutions stay, but keep them as proposals for a service like the one you worked in, not criticism of that provider.
+
+### 14.5 Facts needed from the student before drafting (nothing is invented)
+1. Country and type of placement (care home? hospital? community?), approximate length.
+2. What the AI tool was used for (care plan drafting? risk scoring? documentation?), generically.
+3. The situation in 5–10 lines, and the specific decision(s) you personally made.
+4. Whether the person had capacity and whether consent was discussed.
+5. Who else was involved (roles only) and how you communicated.
+6. What went well, what concerned you, what you would do differently.
+7. The placement agreement/confidentiality rules, and the tutor's written confirmation.
