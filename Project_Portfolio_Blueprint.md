@@ -451,3 +451,8 @@ Describe the tool generically ("an AI-supported imaging tool"). Do not name the 
 3. **Your reflection:** what you would do differently, what you learned about AI and about speaking up.
 4. **Tutor's written confirmation** that a college placement counts as permitted. Also keep the provider's permission in writing.
 5. **Placement policy** on writing about the placement, and how the college wants it anonymised.
+
+---
+
+## 17. PERMISSION STATUS
+Student reports permission is now **granted** (tutor and placement provider). **Keep the written confirmation (email or message) saved** in case it is queried. The case basis in sections 14–16 is now confirmed. Remaining inputs: what the flag conflicted with (generic), outcome after telling the supervisor, and the student's own learning.
