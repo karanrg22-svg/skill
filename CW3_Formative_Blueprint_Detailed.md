@@ -74,6 +74,26 @@ This is a **planning blueprint only**. It contains no submission prose. It tells
 | Task 2, AC3 section | AC3 Diverse Leader | Selecting a leader with justification; choosing and applying a theoretical lens |
 | Reference list | AS1 Referencing | Harvard accuracy; credible sources; evidence of reading |
 
+## 1.4 Alignment with your Week 4 material (added after reading the Topic Workbook)
+
+Source read: *Topic Workbook: Emotional Intelligence, Social and Relational Leadership* (17 pages).
+
+| Workbook element | Where it is | How it changes the blueprint |
+|---|---|---|
+| **Activity 1: Self-Reflection** | Section 2.2 | This is the Week 4 reflective activity. Its three prompts are: strongest EI component and why; most challenging component; how this influences how you lead or collaborate. Your Task 1 evidence is **your own written answers** to these. Complete it yourself if you missed the session. |
+| Two EI models | Section 2.1 | Ability model (Mayer and Salovey, 1997) versus mixed model (Goleman, 1995, 1998). The workbook itself says they differ, so use this as your **critique** of self-assessment. |
+| Five EI components | Table 2 | Self-awareness, self-regulation, motivation, empathy, social skills. The workbook says "Social Skills" (plural). |
+| **Six leadership styles** | Table 3 | **Visionary, Coaching, Affiliative, Democratic, Pacesetting, Commanding** (Goleman, 2000). Use these names, not "authoritative" or "coercive". The workbook's Affiliative risk is "may avoid difficult conversations". |
+| Situational flexibility | Section 3.2 | No style works all the time. Judge whether your default *fits the situation*. |
+| Relational leadership | Section 4 | Uhl-Bien (2006): leadership as process, with inclusivity, empowerment, purposeful action, ethical practice, process orientation. Clarke (2018) adds trust, respect and mutuality. |
+| Social intelligence | Section 5 | Goleman (2006): social awareness and social facility. |
+| Three types of empathy | Table 5 | Cognitive, emotional, compassionate (Goleman, 2006). Use to say *precisely* what kind of empathy you missed. |
+| Empowerment | Section 7.1 | Spreitzer (1995): meaning, competence, self-determination, impact. |
+| Trust | Table 6 | Mayer, Davis and Schoorman (1995): ability, benevolence, integrity. The workbook also splits trust into cognitive and affective. |
+| Microsoft example | Section 3.2 | Flexing coaching, democratic and visionary styles. This supports using **Satya Nadella at Microsoft** as your AC1 real-world example (see 8.3). |
+
+**Caution on the workbook's sources.** Some are weak for academic claims (the Forbes council piece by Sarangi, 2025; the ReWork page by Minh, 2026; the George Business Review page; the Thomas International blog by Stimpson, 2025). Do not rest an argument on them. Some citations are inconsistent (for example Llorente-Alonso et al. is dated 2023 in the text but 2024 in the list; Gerhardt et al. is dated 2025 and 2026). Check the original before copying any citation. Cite **primary sources you have read**, not the workbook's summaries of them.
+
 ---
 
 # 2. Non-negotiable rules and compliance checklist
@@ -252,8 +272,8 @@ If you use a frame, mention it in a clause, not a paragraph. The marker cares ab
 | Job | Explain *why you behaved as you did* using theory, then test the theory. |
 | Must contain | One named framework mapped to one behaviour; a statement of the component (for example, which Goleman competency); a limit or critique, cited. |
 | Recommended lens A | Goleman (1998) five EI components: self-awareness, self-regulation, motivation, empathy, social skill. Pick the **one or two** that your evidence supports. |
-| Recommended lens B | Goleman (2000) leadership styles (for example affiliative, democratic, coaching, pacesetting, coercive, authoritative). Name the style your behaviour resembled, and say whether it *fit the situation*. |
-| Required critique | Antonakis, Ashkanasy and Dasborough (2009): EI as a construct is questioned (measurement, overlap with personality and intelligence, evidence of incremental value). ⚠ Read this paper and cite the specific point you use. |
+| Recommended lens B | Goleman (2000) six styles as named in your workbook: Visionary, Coaching, Affiliative, Democratic, Pacesetting, Commanding. Name the style your behaviour resembled, and say whether it *fit the situation*. |
+| Required critique | Choose one you have read. **Module-based option:** the ability model (Mayer and Salovey, 1997) versus the mixed model (Goleman, 1995, 1998), where your self-rating depends on which model you use. **Further options (⚠ read first):** Cherniss (2010), which is in the workbook list, and Antonakis, Ashkanasy and Dasborough (2009), which is not. Cite the specific point you use. |
 | Optional contrast | Mayer and Salovey (1997) ability model or Petrides and Furnham (2001) trait EI, to show that "EI" is not one thing. |
 | Must avoid | Listing all five competencies. Defining EI. Saying "I demonstrated empathy" without showing how. |
 | Sentence functions (in order) | 1. Behaviour (one clause). 2. Theory it maps to (one clause + citation). 3. Why it maps (the reasoning). 4. What the theory fails to capture (critique + citation). |
@@ -300,6 +320,44 @@ If you use a frame, mention it in a clause, not a paragraph. The marker cares ab
 4. Reduce to one action instead of two.
 5. Never cut: the critique, the evidence for the gap, or the before/after.
 
+## 6.7 Your personalised Task 1 plan (from your questionnaire answers)
+
+**Your answers (as given):** anchor setting = university group project; strongest = social skills; weakest = self-awareness; default style = affiliative or coaching; cost of gap = missed a teammate's concern; evidence = own later realisation; before-belief = leadership is a natural trait; trigger = Week 4 activity result (now to be Activity 1 and the workbook, completed independently); trust = teammates rely on your ability; empowerment = you delegate tasks but keep the final say; theory = Goleman's five components; action = mentor or peer coaching; empathy type missed = compassionate.
+
+| Observation | Why it matters analytically |
+|---|---|
+| Strong social skills, weak self-awareness | Influence without self-monitoring: rapport that you may not be reading in yourself |
+| Affiliative or coaching default | The workbook names the Affiliative risk: "may avoid difficult conversations". Judge whether the style fitted the situation. |
+| Trusted for ability more than benevolence | A tension with an affiliative style, which should signal care. Link to Mayer, Davis and Schoorman (1995), Table 6. |
+| Keep final say while delegating | Partial empowerment (Spreitzer, 1995: self-determination, impact). May explain why a teammate did not voice a concern. |
+| Before: natural trait. After: developable | A genuine change in *understanding*, which the rubric rewards. |
+| Action: mentor or peer coaching | Directly targets self-awareness by supplying external feedback you currently lack. |
+
+**Resolve this before drafting.** You said you *missed* a concern (a cognitive or emotional empathy failure, plus self-awareness) but selected *compassionate* empathy (understanding but not acting). Choose the one that actually happened:
+
+| If the truth is | Gap to name | Link |
+|---|---|---|
+| You never noticed the concern | Cognitive or emotional empathy, plus self-awareness | Fits your weak self-awareness |
+| You noticed but did not act | Compassionate empathy | Fits the affiliative risk and keeping final say |
+
+**Personalised word plan (295 words)**
+
+| Move | Words | Content |
+|---|---|---|
+| 1. Situation and thesis | 30 | Your Activity 1 answer plus the group-project moment. Thesis: you build rapport well but struggle to turn awareness of others into supportive action (adjust to the truth above). |
+| 2. Theory analysis | 95 | Goleman's five components (social skills strong, self-awareness weak). Affiliative default and its stated risk. Empathy type from Table 5. Critique: ability versus mixed model (or Cherniss, 2010, if read). |
+| 3. Evaluation | 70 | Strength with one piece of evidence. Gap: the concern, who it affected and how, linked to trust (ability versus benevolence). |
+| 4. Evolution | 50 | Before: natural trait. Trigger: Activity 1 and the workbook. After: EI is developable, and awareness without action is not enough. |
+| 5. Judgement and action | 50 | Balanced verdict. Mentor or peer coaching: who, how often, and how you will know it worked. |
+
+**Evidence weaknesses to fix**
+1. "My own later realisation" is the weakest evidence type. Anchor it in your written Activity 1 answers, or add one corroborating signal (a teammate's comment, a tutor remark, a later outcome).
+2. "Missed a teammate's concern" is still general. Pin down what the concern was and what it affected.
+3. Do not claim you are trusted for ability unless you have evidence (feedback or outcomes).
+4. Keep the gap real. Do not let it become a strength in disguise.
+
+**Three facts only you can supply:** your Activity 1 notes; one sentence on the incident (what the concern was and what it affected); who your mentor or peer coach would be and how often you would meet.
+
 ---
 
 # 7. TASK 1 evidence-capture workshop (YOU SUPPLY)
@@ -331,14 +389,18 @@ Do this **before** writing. These prompts help you recover real evidence from We
 
 ## 7.3 Style probe (Goleman, 2000)
 
-| Style | Have I used it? When? Did it fit? What was the effect on the group's climate? |
+| Style (as named in your workbook) | Have I used it? When? Did it fit? What was the effect on the group's climate? |
 |---|---|
-| Coercive | |
-| Authoritative | |
+| Visionary | |
+| Coaching | |
 | Affiliative | |
 | Democratic | |
 | Pacesetting | |
-| Coaching | |
+| Commanding | |
+
+**Activity 1 prompts to answer first (from the workbook):** (1) Which of the five components is currently your strongest, and why? (2) Which do you find most challenging? (3) How does this influence the way you lead or collaborate? Write your own notes before you draft anything.
+
+**If you missed the Week 4 session:** complete Activity 1 from the Topic Workbook yourself, and consider a brief clause in your text saying so. Do not describe an in-class experience you did not have.
 
 ## 7.4 Selecting your single story
 
@@ -392,6 +454,7 @@ The marker is judging whether you can already think like an AC1/AC3 writer. A to
 |---|---|
 | Job | Name at least one real example and say what it will let you test. |
 | Recommended | Satya Nadella at Microsoft (⚠ verify facts and timeframe): the cultural shift under his leadership offers a test case for leadership versus management and for the role of empathy and growth mindset (Dweck, 2006). |
+| Module link | Your Week 4 workbook already uses Microsoft as an example of flexing coaching, democratic and visionary styles (citing Sarangi, 2025 and Stimpson, 2025). That is a **module-endorsed context**, but those two sources are weak. Find independent academic or business-press sources instead. |
 | Why a different person from AC3 | Avoids overlap and shows range. It also saves you re-explaining a context. |
 | Sources to pair | Nadella (2017) *Hit Refresh* (a leader-authored account) **plus** at least one independent academic or business-press source. State this pairing in a clause to show source awareness. |
 | What the example must do | Test a claim from Move 1 (for example, does a "transformational" turnaround rely on management systems as well?). |
@@ -585,6 +648,21 @@ State once, in a clause, that you will analyse *decisions and outcomes in contex
 - Nooyi, I. (2021) *My life in full*. New York: Portfolio. (Confirm publisher and edition.)
 - **You must add:** at least two independent sources per leader (academic case, HBR or reputable press). ⚠ Find and read these yourself.
 
+## 11.3b Additional module sources worth reading (from the Week 4 workbook; ⚠ verify against originals)
+
+| Source | Use |
+|---|---|
+| Uhl-Bien, M. (2006) 'Relational leadership theory: exploring the social processes of leadership and organizing', *The Leadership Quarterly*, 17(6), pp. 654–676 | AC1 theory spine: leadership as a relational process, a contrast to Zaleznik and Kotter |
+| Clarke, N. (2018) *Relational leadership: theory, practice and development*. London: Routledge | AC1 or AC3: trust, respect, mutuality |
+| Goleman, D. (1995) *Emotional intelligence: why it can matter more than IQ*. New York: Bantam Books | Task 1 |
+| Goleman, D. (1998) *Working with emotional intelligence*. New York: Bantam Books | Task 1 |
+| Goleman, D. (2006) *Social intelligence: the new science of human relationships*. New York: Bantam | Task 1: empathy types, social intelligence |
+| Cherniss, C. (2010) 'Emotional intelligence: toward clarification of a concept', *Industrial and Organizational Psychology*, 3(2), pp. 110–126 | Task 1 critique (read first) |
+| Spreitzer, G.M. (1995) 'Psychological empowerment in the workplace: dimensions, measurement, and validation', *Academy of Management Journal*, 38(5), pp. 1442–1465 | Task 1: empowerment |
+| Kock, N. et al. (2019) 'Empathetic leadership: how leader emotional support and understanding influences follower performance', *Journal of Leadership & Organizational Studies*, 26(2), pp. 217–236 | Task 1: empathy and outcomes |
+
+**Avoid leaning on:** Sarangi (2025, Forbes), Minh (2026, ReWork), George Business Review (2022), Stimpson (2025, Thomas International blog). These are low-authority for academic claims.
+
 ## 11.4 Source-to-claim map (fill in, delete any unmatched source)
 
 | Claim in your plan | Source | Type (academic / business / primary) | Opened and read? |
@@ -764,7 +842,8 @@ You may be asked about any concept, example or source. Prepare short answers to 
 # 18. Open items for you
 
 1. **Paste LO1 to LO5 and the summative grade bands.** I will map the blueprint to them exactly.
-2. **Provide or confirm your Week 4 evidence** (YOU SUPPLY). Task 1 cannot be built without it.
+2. **Send your own Activity 1 notes** (strongest and most challenging component, and how they affect your leadership), the one-sentence incident, and your mentor or peer-coach plan. These are the three facts only you can supply (section 6.7).
+2b. **Settle the empathy type** (never noticed versus noticed but did not act), and decide how to state that you completed Activity 1 independently.
 3. **Confirm the leader choice** (Nooyi for AC3 and Nadella for the AC1 example, or your own).
 4. **Confirm your core textbook edition** so the reference list is exact.
 5. **Verify every ⚠ item** against the original sources before using it.
