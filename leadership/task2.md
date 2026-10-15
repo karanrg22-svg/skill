@@ -12,7 +12,7 @@ Nadella at Microsoft tests whether a transformational culture shift also depende
 
 ## AC3: Diverse Leader
 
-I chose Nooyi, former PepsiCo chief executive, against three criteria: documented leadership philosophy (Nooyi, 2021); an intersectional position (gender, ethnicity, migration); and a record containing both achievement and criticism, which permits evaluation, not admiration. I rejected Nadella here to avoid overlap, and because gender does not apply to him.
+I chose Nooyi, former PepsiCo chief executive, against three criteria: documented leadership philosophy (Nooyi, 2021); an intersectional position (gender, ethnicity, migration); and a record containing both achievement and criticism, which permits evaluation, not admiration. Her memoir is self-authored, so I will read it as advocacy as well as evidence. I rejected Nadella here to avoid overlap, and because gender does not apply to him.
 
 Crenshaw's (1989) intersectionality, with Rosette et al. (2016) on combined race and gender effects, will show how overlapping identities shaped her context; Bass (1985) shows what she did. I will examine speeches, strategic decisions and stakeholder outcomes, treating decisions that contradict a transformational reading as counter-evidence. Limits: intersectionality is hard to apply to one case and invites over-attribution; evidence is retrospective and media-filtered; transformational theory is leader-centred. I will analyse decisions in context, not Nooyi as a category representative.
 
