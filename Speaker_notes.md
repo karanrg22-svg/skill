@@ -102,7 +102,7 @@ Data privacy: ledger entries may hold commercially sensitive or personal data wh
 
 Cross-border regulation: there is no settled international standard for enforcing smart-contract royalties. The mitigation is the phased rollout by territory from slide seven, starting where digital-contract law is clearer. This is the risk Apple TV+ cannot fully control, which is why rollout order matters.
 
-Smart-contract error is the most serious risk, linked to the encoding gap on slide five. A wrong term in code keeps paying the wrong party until someone notices. The control is mandatory legal and technical sign-off before go-live, plus a manual override and dispute freeze. The risks interact: an error is harder to correct on an immutable ledger, and correcting it may touch personal data, so the controls work as a set, with off-chain data, sign-off and a freeze each covering another’s gap.
+Smart-contract error is the most serious risk, linked to the encoding gap on slide five. A wrong term in code keeps paying the wrong party until someone notices. The control is mandatory legal and technical sign-off before go-live, plus a manual override and dispute freeze. The risks interact: an error is harder to correct on an immutable ledger, and correcting it may touch personal data, so the controls work as a set, with off-chain data, sign-off and a freeze each covering another’s gap. For Apple TV+ the practical test of these controls is whether a wrong payment can be found and stopped before it reaches talent, which is a process the pilot can rehearse before go-live.
 
 ## Slide 12
 
