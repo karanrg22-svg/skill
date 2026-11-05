@@ -65,9 +65,9 @@ Weak forecasting matters most because it drives both capacity and stock errors. 
 
 ## References
 
-Fisher, M.L. (1997) 'What is the right supply chain for your product?', *Harvard Business Review*, 75(2), pp. 105–116.
-
 DeHoratius, N. and Raman, A. (2008) 'Inventory record inaccuracy: an empirical analysis', *Management Science*, 54(4), pp. 627–641.
+
+Fisher, M.L. (1997) 'What is the right supply chain for your product?', *Harvard Business Review*, 75(2), pp. 105–116.
 
 Grocery Gazette (2025) 'Ocado remains UK's fastest-growing retailer', 9 December. Available at: https://www.grocerygazette.co.uk/2025/12/09/ocado-remains-uks-fastest-growing-retailer/ (Accessed: add your access date).
 
