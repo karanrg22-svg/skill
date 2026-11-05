@@ -2,13 +2,13 @@
 
 ## 1. Introduction
 
-UK online grocery is large and contested: food retailers took about £1.5bn in online sales in July 2025 alone (ONS, 2025), and Ocado grew 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025 (Worldpanel by Numerator, 2025). FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise. This report analyses both problems, shows they share root causes, and recommends what to fix first.
+UK online grocery is large and contested: food retailers took about £1.5bn in online sales in July 2025 alone (Office for National Statistics, 2025), and Ocado grew 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025 (Worldpanel by Numerator, 2025). FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise. This report analyses both problems, shows they share root causes, and recommends what to fix first.
 
 ## 2. Problem A: peak delivery delays
 
 **The problem.** Deliveries slip at weekends, holidays and promotions, when distribution centres, drivers and route planning are all under pressure.
 
-**Impact.** Reliability, satisfaction and repeat purchases fall (brief), and overtime raises cost. This contradicts the "reliable" promise. In the service-profit chain, service drives loyalty and profit, so delays hit revenue, not just reputation.
+**Impact.** Reliability, satisfaction and repeat purchases fall (brief), and overtime raises cost. This contradicts the "reliable" promise. In the service-profit chain, service drives loyalty and profit (Heskett et al., 1994), so delays hit revenue, not just reputation.
 
 **Where it breaks.** Inputs are orders, drivers and route-planning systems; transformation is pick, pack, dispatch and route; output is late delivery. Assumption: dispatch and driver capacity saturate first. Lateness is the gap between what customers expect and what they get, so it erodes trust each time it happens.
 
@@ -62,3 +62,23 @@ Both problems trace to the same causes, ranked below.
 ## 8. Conclusion
 
 Weak forecasting matters most because it drives both capacity and stock errors. Improve forecasting and stock accuracy first: it is cheapest and fixes both problems. Track peak on-time delivery, item availability, substitution rate and overtime hours; if they do not improve within two peak periods (an assumption), move to the later actions.
+
+## References
+
+Fisher, M.L. (1997) 'What is the right supply chain for your product?', *Harvard Business Review*, 75(2), pp. 105–116.
+
+DeHoratius, N. and Raman, A. (2008) 'Inventory record inaccuracy: an empirical analysis', *Management Science*, 54(4), pp. 627–641.
+
+Grocery Gazette (2025) 'Ocado remains UK's fastest-growing retailer', 9 December. Available at: https://www.grocerygazette.co.uk/2025/12/09/ocado-remains-uks-fastest-growing-retailer/ (Accessed: add your access date).
+
+Heskett, J.L., Jones, T.O., Loveman, G.W., Sasser, W.E. and Schlesinger, L.A. (1994) 'Putting the service-profit chain to work', *Harvard Business Review*, 72(2), pp. 164–174.
+
+Lee, H.L., Padmanabhan, V. and Whang, S. (1997) 'The bullwhip effect in supply chains', *Sloan Management Review*, 38(3), pp. 93–102.
+
+Ocado Group plc (2025) *Update on Kroger Partnership*. Regulatory news, 18 November. Available at: https://www.ticker.app/lse/OCDO/rns/2025-11-18/Update-on-Kroger-Partnership/0339I (Accessed: add your access date).
+
+Ocado Retail (2025) *Annual Report 2025*. Available at: https://sustainability.ocadoretail.com/wp-content/uploads/2025/09/OCADO-ANNUAL-REPORT_2025.pdf (Accessed: add your access date).
+
+Office for National Statistics (2025) *Internet retail sales by sector, up to July 2025, Great Britain*. Released 16 September. Available at: https://www.ons.gov.uk/businessindustryandtrade/retailindustry/adhocs/3027internetretailsalesbysectoruptojuly2025greatbritain (Accessed: add your access date).
+
+Worldpanel by Numerator (2025) *UK grocery market share, 12 weeks to 30 November 2025*, as reported by Grocery Gazette (2025). Replace with the primary release if you find it.
