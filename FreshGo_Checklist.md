@@ -28,7 +28,7 @@ Do these in order. If a source cannot be confirmed, remove it and the claim it s
 
 | Item | What was found | Status |
 |---|---|---|
-| ONS online share | Statista chart of ONS data: online sales were about 9.4% of food-store sales in Great Britain in March 2025. Report now says "about 9%". The all-retail share is around 28% and is not the right measure | Confirm in the ONS retail sales tables for the month you cite |
+| ONS online food sales | VERIFIED in the ONS file you downloaded (Table 2, Predominantly food stores, July 2025: £1,499,833 thousand, a four-week period). The file has no total-sales column, so it cannot give a percentage share. The report now uses the £1.5bn figure, not 9% | Done. Reference: ONS (2025) Internet retail sales by sector, up to July 2025, Great Britain, released 16 September 2025 |
 | Ocado 99% | VERIFIED in the Ocado Retail Annual Report 2025 (PDF page 3, CEO review): "improved our already high 'perfect orders' rate and continued to ensure 99% of items were delivered exactly as promised." It says items, not orders. No perfect-orders percentage is given, so do not add one | Done |
 | Ocado 15.8% and 2.2% | Worldpanel by Numerator, 12 weeks to 30 November 2025: Ocado sales up 15.8%, record 2.2% share (1.9% a year earlier) | Confirmed in several reports; cite Worldpanel's own release if you can find it |
 | Partner closures | Not RTE. Kroger is closing three Ocado centres (Frederick, Pleasant Prairie, Groveland) in January 2026 and paying Ocado about $350m. Ocado announced it on 18 November 2025 | Report now cites Ocado Group (2025) |

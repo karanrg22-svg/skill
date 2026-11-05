@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-UK online grocery is large and contested: online is about 9% of food retail sales (ONS, 2025), and Ocado grew 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025 (Worldpanel by Numerator, 2025). FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise. This report analyses both problems, shows they share root causes, and recommends what to fix first.
+UK online grocery is large and contested: food retailers took about £1.5bn in online sales in July 2025 alone (ONS, 2025), and Ocado grew 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025 (Worldpanel by Numerator, 2025). FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise. This report analyses both problems, shows they share root causes, and recommends what to fix first.
 
 ## 2. Problem A: peak delivery delays
 
