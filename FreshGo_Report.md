@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-UK online grocery is large and contested: online is about 10% of food retail sales (ONS, 2025), and Ocado grew 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025 (Worldpanel by Numerator, 2025). FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise. This report analyses both problems, shows they share root causes, and recommends what to fix first.
+UK online grocery is large and contested: online is about 9% of food retail sales (ONS, 2025), and Ocado grew 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025 (Worldpanel by Numerator, 2025). FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise. This report analyses both problems, shows they share root causes, and recommends what to fix first.
 
 ## 2. Problem A: peak delivery delays
 
@@ -51,7 +51,7 @@ Both problems trace to the same causes, ranked below.
 
 ## 7. Ocado benchmark and recommendations
 
-**Benchmark.** Ocado Retail reports 99% of items delivered as promised from automated centres (Ocado Retail, 2025). The limit is capital intensity: North American partners are closing some centres (RTE, 2026). FreshGo should not copy it wholesale.
+**Benchmark.** Ocado Retail reports 99% of items delivered as promised from automated centres (Ocado Retail, 2025). The limit is capital intensity: Kroger is closing three Ocado-built centres in the US (Ocado Group, 2025). FreshGo should not copy it wholesale.
 
 1. **Improve forecasting and stock accuracy first** (real-time signals, cycle counts). It fixes both problems cheaply; the risk is data cost and uncertain gains.
 2. **Add flexible labour and slot-based demand management.** It matches capacity to demand; the risks are training and customer reaction. Second, as it needs better forecasts.

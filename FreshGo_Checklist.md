@@ -23,3 +23,13 @@ Do these in order. If a source cannot be confirmed, remove it and the claim it s
 
 - Add a reference list with one entry for every source cited.
 - Read the report once aloud and rewrite anything that is not in your own words.
+
+## Results of the source search
+
+| Item | What was found | Status |
+|---|---|---|
+| ONS online share | Statista chart of ONS data: online sales were about 9.4% of food-store sales in Great Britain in March 2025. Report now says "about 9%". The all-retail share is around 28% and is not the right measure | Confirm in the ONS retail sales tables for the month you cite |
+| Ocado 99% | Ocado Retail Annual Report 2025 (70 weeks to 6 April 2025) says 99% of items were delivered exactly as promised. The same wording is in the FY24 trading statement | Confirm the wording in the report PDF |
+| Ocado 15.8% and 2.2% | Worldpanel by Numerator, 12 weeks to 30 November 2025: Ocado sales up 15.8%, record 2.2% share (1.9% a year earlier) | Confirmed in several reports; cite Worldpanel's own release if you can find it |
+| Partner closures | Not RTE. Kroger is closing three Ocado centres (Frederick, Pleasant Prairie, Groveland) in January 2026 and paying Ocado about $350m. Ocado announced it on 18 November 2025 | Report now cites Ocado Group (2025) |
+| DeHoratius and Raman (2008), Fisher (1997), Lee et al. (1997) | Not searched. These are real papers (Management Science 54(4); Harvard Business Review 75(2); Sloan Management Review 38(3)) but you must read them before citing | Open each one |
