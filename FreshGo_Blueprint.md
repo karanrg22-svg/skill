@@ -1,95 +1,118 @@
 # FreshGo operations improvement blueprint
 
-Fixing peak-time delivery delays and inventory availability
+## 0. What you are writing
 
-Basis: FreshGo facts come only from the company brief. Market and competitor evidence is taken from published sources. Anything not in the brief is labelled as an assumption.
+**Deliverable:** a written operations report of about 950 words (keep it between 900 and 950).
 
-## 1. Strategy at a glance
+**Reader:** FreshGo's senior management, who want to know why deliveries run late at peak times and why items are unavailable, and what to do first.
 
-| Item | Decision |
-|---|---|
-| Problem A | Delivery delays at peak demand |
-| Problem B | Inventory availability and stock inaccuracy |
-| Central argument | Both are symptoms of one chain. Weak forecasting leads to poor capacity and labour matching, which causes stock-outs and late delivery, and each failure makes the other worse |
-| Benchmark | Ocado, used for one capability and one limit |
-| Analytical tools | Input-transformation-output (ITO) view, the 4Vs (volume, variety, variability, visibility), the five performance objectives, capacity and demand management |
-| Evidence rule | FreshGo evidence comes from the brief only. Market and competitor evidence is real and sourced. Assumptions are labelled |
+**What the report does:** it takes two operational problems from the company brief (peak delivery delays, and inventory availability), shows they come from one chain of causes, ranks the root causes, benchmarks against Ocado, and recommends a sequenced set of actions.
 
-## 2. Plan structure
+**Format:** short headed sections in the order below, one gap table, and a numbered list of recommendations. Plain, direct business English. Every claim about FreshGo comes from the brief. Every outside figure has a named source. Anything else is labelled as an assumption.
 
-| Section | Purpose |
-|---|---|
-| Introduction | Market context and the logic of the plan |
-| Problem A: peak delivery delays | Define, explain impact, analyse |
-| Problem B: inventory availability | Define, explain impact, analyse |
-| How the problems compound, and external pressure | Show the loop and the strategic cost |
-| Root causes | Trace symptoms back to ranked causes |
-| Gap table | FreshGo practice versus better practice, with trade-offs |
-| Benchmark and recommendations | Ocado comparison, sequenced actions, stress test |
-| Conclusion | Which cause matters most and what to do first |
+**How to use this blueprint:** write the sections in the order given. Each has a word limit, a purpose, and a step-by-step list of what to write. Do not go over a section's limit. Write the introduction and conclusion last.
 
-## 3. Section blueprints
+## 1. The argument in one paragraph
 
-### Introduction
+Late peak deliveries and unavailable stock look like two separate problems, but they are one chain. Weak forecasting (history only, no real-time signals) leads to capacity and staffing that do not match demand. That causes stock-outs and late deliveries, and each failure makes the other worse. Fixing forecasting and stock accuracy first is the cheapest way to improve both. Ocado shows what automation can achieve, but its cost means FreshGo should not copy it wholesale.
 
-Job: frame the problem and the logic of the plan, with no filler.
+Every section either states a part of this argument or supports it. If a sentence does not, cut it.
 
-| Move | Content | Source |
-|---|---|---|
-| 1 | UK online grocery is growing and contested. Use one or two real figures | ONS internet sales data (2025); Worldpanel by Numerator market share (2025) |
-| 2 | FreshGo's stated strategy promises fast, reliable, customer-focused delivery | FreshGo brief |
-| 3 | The plan analyses peak delivery delays and inventory availability, then diagnoses root causes | Operations management framework |
+## 2. Word allocation (total 950)
 
-Avoid: company history, a definition of operations management, and "this plan will..." padding.
+| # | Section | Words | What the section does |
+|---|---|---|---|
+| 1 | Introduction | 80 | Sets the market context, FreshGo's promise, and the argument |
+| 2 | Problem A: peak delivery delays | 160 | Defines the problem, its impact, and analyses it |
+| 3 | Problem B: inventory availability | 140 | Defines the problem, its impact, and analyses it |
+| 4 | How the problems compound | 50 | Shows the loop and the pressure from competitors |
+| 5 | Root causes | 230 | Traces the symptoms back to ranked causes |
+| 6 | Gap table | 90 | Compares FreshGo's practice with better practice |
+| 7 | Ocado benchmark and recommendations | 140 | One lesson, one limit, three sequenced actions |
+| 8 | Conclusion | 60 | Gives the judgement |
+| | **Total** | **950** | |
 
-### Problem A: peak delivery delays
+Word count includes the table, so treat the table as part of the 950. That leaves a margin of up to 50 words if the table turns out shorter.
 
-| Step | What to cover | Source |
-|---|---|---|
-| 1. Problem | One precise sentence: delays at weekends, holidays and promotions, with pressure on the distribution centres, drivers and route planning | Brief |
-| 2. Why (preview only) | Demand spikes against a capacity that does not flex. Detail is left to the root-cause section | Operations framework |
-| 3. Impact | Reliability and satisfaction fall, and repeat purchases fall (brief). Overtime pushes cost up. This contradicts the stated "reliable" strategy. Link service quality to loyalty and profit through the service-profit chain | Brief; service-profit chain |
-| 4. Analysis | ITO: inputs (orders, drivers, route-planning systems), transformation (pick, pack, dispatch, route), output (late deliveries). Show where the transformation saturates. 4Vs: variability dominates. Volume is high, which would normally allow standardisation. Say which Vs matter less. Performance objectives: dependability and speed are hit first, cost second, quality (fresh goods) third. Rank them | Operations framework |
-| Service-quality angle | Late delivery is a gap between what the customer expects and what is delivered (SERVQUAL gap model) | Service-quality model |
+## 3. Section-by-section instructions
 
-Key point: call peak delay a symptom, and say why in one clause. That sets up the root-cause section.
+### 1. Introduction (80 words)
 
-### Problem B: inventory availability
+**Purpose:** frame the problem quickly and state the logic of the report. No history, no definitions.
 
-| Step | What to cover | Source |
-|---|---|---|
-| 1. Problem | Items unavailable after order, caused by stock inaccuracy, poor visibility and weak replenishment | Brief |
-| 3. Impact | More cancellations and lower customer confidence (brief). Refund and waste cost | Brief |
-| 4. Analysis | ITO: inaccurate stock data in, picking on a false basis, then substitutions and cancellations out. 4Vs: visibility is the key V, because the online catalogue shows stock the warehouse may not hold. Variety (fresh and ambient SKUs) adds difficulty. Performance objectives: quality (order accuracy), dependability, cost | Operations framework |
-| Inventory record accuracy | Record inaccuracy is common and drives lost sales and poor availability | Retail inventory-accuracy research |
-| Product type | Perishable, variable-demand goods need a responsive supply chain, not an efficient one | Supply-chain fit model (functional versus innovative products) |
+**Write three things, in this order:**
 
-### How the problems compound, and external pressure
+1. (about 25 words) UK online grocery is growing and competitive. Use one or two real figures.
+2. (about 25 words) FreshGo promises fast, reliable, customer-focused delivery, but peak-time delays and unavailable items undermine that promise.
+3. (about 30 words) This report analyses the two problems, shows they share root causes, and recommends what to fix first.
 
-| Move | Content | Source |
-|---|---|---|
-| Compounding | A stock-out causes substitutions or re-picks, which add peak load and worsen delays. Delay then raises order changes and cancellations. Present it as a loop | Reasoning from the brief |
-| External pressure | Fast-growing competitors raise customer expectations. Ocado sales up 15.8% to a record 2.2% share (12 weeks to 30 November 2025) | Worldpanel by Numerator (2025), via Retail Gazette; verify against the primary release |
-| Strategic link | The operation undermines its own strategy | Brief |
+**Sources:** ONS internet retail sales (2025); Worldpanel by Numerator market share (2025); FreshGo brief.
 
-### Root causes
+**Leave out:** company history, a definition of operations management, and filler such as "this report will..."
 
-Work backwards from symptom to cause and show the "why?" chain.
+### 2. Problem A: peak delivery delays (160 words)
 
-| Cause (ranked) | Argument | Source |
-|---|---|---|
-| 1. Weak forecasting | The brief says forecasts rely on historical data and omit real-time information. Error carries into both capacity and stock, so it is the strongest candidate for primary root cause. A bullwhip-style amplification argument applies if it can be justified | Brief; bullwhip effect; forecasting practice |
-| 2. Capacity-demand mismatch | A level-capacity posture fails in peaks. Contrast level, chase and demand-management strategies, and say which fits FreshGo and why (for example, a hybrid) | Capacity management; service-capacity matching |
-| 3. Workforce planning | Fixed rostering gives idle labour in troughs and overtime in peaks (brief). Flexible options (annualised hours, cross-training, temporary labour) have costs in training, quality and morale | Capacity management |
-| 4. Utilisation and bottlenecks | Manual picking and poor layout create a constraint. As utilisation nears 100%, waiting time rises sharply | Theory of constraints; queueing (Little's law); factory physics |
+**Purpose:** show exactly what goes wrong at peak times, what it costs FreshGo, and where in the operation it breaks.
 
-Required checks:
+**Write four things, in this order:**
 
-- Rank and justify. Say which cause is the root and which are contributory.
-- Counter-view. Promotions may create some of the peaks, so part of the demand is self-inflicted.
-- Limits. The brief gives no utilisation or forecast-error figures, so the diagnosis is inferential. Say so in one sentence.
+1. **The problem (about 25 words).** One precise sentence: delays at weekends, holidays and promotions, with pressure on distribution centres, drivers and route planning.
+2. **The impact (about 40 words).** On-time reliability and customer satisfaction fall, and so do repeat purchases (brief). Overtime pushes cost up. This contradicts the "reliable" promise. Good service drives loyalty and profit, so these delays hit revenue, not just reputation.
+3. **Where the operation breaks (about 50 words).** Use the input-transformation-output view. Inputs: orders, drivers, route-planning systems. Transformation: pick, pack, dispatch, route. Output: late deliveries. Say which step saturates first at peak. Late delivery is a gap between what the customer expects and what they get.
+4. **What kind of operation this is (about 45 words).** Use the 4Vs. Variability dominates, because demand swings sharply. Volume is high, which would normally allow standardisation. Say which of the other Vs matter less. Then rank the performance objectives that suffer: dependability and speed first, cost second, quality (fresh goods) third.
 
-### Gap table
+**Finish with one clause** that calls peak delay a symptom, not the cause. This sets up the root-cause section.
+
+**Sources:** the brief; operations management framework (ITO, 4Vs, performance objectives); service-profit chain; service-quality gap model.
+
+### 3. Problem B: inventory availability (140 words)
+
+**Purpose:** show how inaccurate stock information turns into cancellations and lost trust.
+
+**Write four things, in this order:**
+
+1. **The problem (about 25 words).** Items are unavailable after the customer has ordered, caused by stock inaccuracy, poor visibility and weak replenishment.
+2. **The impact (about 30 words).** More cancellations and lower customer confidence (brief). Add the cost of refunds and waste.
+3. **Where the operation breaks (about 55 words).** Input-transformation-output: inaccurate stock data goes in, picking happens on a false basis, and substitutions and cancellations come out. Using the 4Vs, visibility is the key V, because the online catalogue shows stock the warehouse may not hold. Variety (fresh and ambient lines) adds difficulty.
+4. **What kind of operation this is (about 30 words).** Rank the performance objectives hit: order accuracy (quality), dependability, then cost. Add one outside point: stock-record inaccuracy is common in retail and drives lost sales, and perishable, variable-demand goods need a responsive supply chain rather than a purely efficient one.
+
+**Sources:** the brief; operations management framework; retail inventory-accuracy research; supply-chain fit model (functional versus innovative products).
+
+### 4. How the problems compound (50 words)
+
+**Purpose:** show that A and B feed each other, and that the operation undermines FreshGo's own strategy.
+
+**Write three things, in this order:**
+
+1. (about 25 words) The loop. A stock-out causes substitutions or re-picks, which add peak workload and worsen delays. Delay then raises order changes and cancellations, which feed back into stock errors.
+2. (about 15 words) The outside pressure. Fast-growing rivals raise customer expectations. Ocado sales rose 15.8% to a record 2.2% share in the 12 weeks to 30 November 2025.
+3. (about 10 words) The consequence. The operation is working against the strategy it is meant to deliver.
+
+**Sources:** reasoning from the brief; Worldpanel by Numerator (2025), reported via Retail Gazette. Verify the figure against the primary release.
+
+### 5. Root causes (230 words)
+
+**Purpose:** move from symptoms to causes and say which cause matters most.
+
+**Write these parts, in this order:**
+
+1. **Lead-in (about 20 words).** Say that both problems trace back to the same few causes, ranked below.
+2. **Cause 1: weak forecasting (about 55 words).** The brief says forecasts rely on historical data and omit real-time information. Forecast error carries into both capacity and stock, so it is the strongest candidate for the primary root cause. Error also amplifies as it moves through the chain (the bullwhip effect), if you can justify applying it here.
+3. **Cause 2: capacity does not match demand (about 45 words).** FreshGo effectively runs level capacity, which fails in peaks. Compare three options: level capacity, chase capacity, and shaping demand. Say which suits FreshGo and why (a hybrid is a reasonable answer).
+4. **Cause 3: workforce planning (about 30 words).** Fixed rostering gives idle labour in troughs and overtime in peaks (brief). Flexible options (annualised hours, cross-training, temporary labour) have costs in training, quality and morale.
+5. **Cause 4: utilisation and bottlenecks (about 30 words).** Manual picking and poor layout create a constraint. As utilisation nears 100%, waiting time rises sharply.
+6. **Judgement (about 50 words).** Make three points:
+   - **Rank them.** Say which cause is the root and which are contributory.
+   - **Counter-view.** Promotions may create some of the peaks, so part of the demand is self-inflicted.
+   - **Limit.** The brief gives no utilisation or forecast-error figures, so this diagnosis is inferred. Say so in one sentence.
+
+**Sources:** the brief; bullwhip effect; forecasting practice; capacity management and service-capacity matching; theory of constraints; queueing theory (Little's law).
+
+### 6. Gap table (90 words)
+
+**Purpose:** give management a one-glance comparison of FreshGo's current practice against better practice.
+
+**Format:** a table with five rows and these columns. Trim each cell to a few words so the whole table is about 90 words. Every row must match a cause in section 5.
 
 | Practice | FreshGo (from brief) | Gap | Better practice | Trade-off |
 |---|---|---|---|---|
@@ -99,31 +122,47 @@ Required checks:
 | Demand management | Not mentioned | Peaks unshaped | Slot pricing, promotion timing | Customer reaction |
 | Inventory visibility | Poor | Stock inaccuracy | Cycle counts, real-time tracking | System cost |
 
-Keep every row tied to a cause in the root-cause analysis.
+**Rule:** the "FreshGo" column comes only from the brief. If the brief does not mention something, write "Not mentioned".
 
-### Benchmark and recommendations
+### 7. Ocado benchmark and recommendations (140 words)
 
-| Element | Content | Source |
-|---|---|---|
-| Benchmark | One Ocado capability, such as automated fulfilment or high order accuracy, with the figure checked in the annual report (the search suggested 99% of items delivered as ordered, which must be verified). Then the limit: it is capital-intensive, and 2026 reporting says North American partners are closing some customer fulfilment centres, so FreshGo should not copy it wholesale | Ocado Retail Annual Report 2025; RTE (2026), verify |
-| Recommendations | 1) Improve forecasting and inventory accuracy first (cheap, fixes both problems). 2) Add flexible labour and slot-based demand management. 3) Evaluate automation only if volume justifies it. For each, give the benefit, the cost or risk, and the order | Supply chain and logistics practice |
-| Stress test | What if demand grows a further 30%, or forecasting gains are smaller than expected? | Reasoning from the brief |
+**Purpose:** show what a leading competitor does, why FreshGo should not simply copy it, and what FreshGo should do, in order.
 
-### Conclusion
+**Write three things, in this order:**
 
-Give a judgement: which root cause matters most, which action comes first and why. Add no new evidence and do not restate everything.
+1. **Ocado benchmark (about 45 words).** Pick one capability, such as automated fulfilment or high order accuracy, and give the figure from Ocado's annual report. A search suggested 99% of items delivered as ordered, which you must verify before using it. Then give the limit: it is capital-intensive, and 2026 reporting says North American partners are closing some customer fulfilment centres. FreshGo should not copy it wholesale.
+2. **Recommendations (about 75 words).** A numbered list of three actions. For each, give the benefit, the cost or risk, and why it comes in that position:
+   1. Improve forecasting and inventory accuracy first. It is cheap and fixes both problems.
+   2. Add flexible labour and slot-based demand management.
+   3. Evaluate automation only if volume justifies it.
+3. **Stress test (about 20 words).** What if demand grows a further 30%, or the forecasting gains are smaller than expected? Say which recommendation changes and how.
 
-## 4. Test of the plan
+**Sources:** Ocado Retail Annual Report 2025; RTE (2026) on fulfilment centre closures (verify); supply chain and logistics practice; your own reasoning from the brief.
 
-| Test | How the blueprint meets it |
+### 8. Conclusion (60 words)
+
+**Purpose:** give the answer.
+
+**Write three sentences:**
+
+1. Which root cause matters most.
+2. Which action comes first and why.
+3. What to watch to know it is working.
+
+Add no new evidence and do not restate every section.
+
+## 4. Check before you finish
+
+| Check | Where it is met |
 |---|---|
-| Problems interact and compound | Compounding section, with the loop |
-| Links to strategy and external pressure | Strategy contradiction, plus the Ocado pressure |
-| Models used to reach conclusions, not just described | Each model is followed by "so FreshGo...", with ranked Vs and objectives |
-| Management decisions affect capacity and utilisation | Root-cause section |
-| Contradictions between intentions and outcomes | "Reliable" strategy against peak failure |
-| Evidence from the case | Every FreshGo claim traces to the brief |
-| Sources | Every external figure has a named source |
+| The two problems are shown interacting, not separately | Section 4 |
+| Links to FreshGo's strategy and to competitor pressure | Sections 1 and 4 |
+| Each model is used to reach a conclusion ("so FreshGo...") and not just described | Sections 2, 3 and 5 |
+| Management decisions are tied to capacity and utilisation | Section 5 |
+| The gap between what FreshGo promises and what it delivers is stated | Sections 2 and 4 |
+| Every FreshGo claim traces to the brief | Throughout |
+| Every outside figure has a named source | Throughout |
+| Word count is 950 or under, including the table | Whole report |
 
 ## 5. Pitfalls to avoid
 
@@ -132,6 +171,7 @@ Give a judgement: which root cause matters most, which action comes first and wh
 - Invented FreshGo numbers.
 - Recommendations without cost, risk or sequence.
 - Unsourced claims.
+- Going over a section's word limit to fit in extra detail. Cut instead.
 
 ## 6. Sources to confirm
 
@@ -142,4 +182,4 @@ Check every figure against the original before relying on it.
 - Office for National Statistics (2025) Internet sales by retail sector, Great Britain: https://www.ons.gov.uk/businessindustryandtrade/retailindustry/adhocs/3027internetretailsalesbysectoruptojuly2025greatbritain
 - Worldpanel by Numerator (2025) UK grocery market share. Replace the secondary news page with the primary release.
 - RTE (2026) reporting on Ocado partner fulfilment centre closures. Verify.
-- Background references for the frameworks used: operations management textbook (ITO, 4Vs, performance objectives, capacity strategies); supply-chain strategy and logistics texts; bullwhip effect, theory of constraints and queueing literature; service-profit chain and SERVQUAL service-quality models; retail inventory-accuracy research.
+- Background for the frameworks used: operations management textbook (input-transformation-output, 4Vs, performance objectives, capacity strategies); supply-chain strategy and logistics texts; bullwhip effect, theory of constraints and queueing literature; service-profit chain and service-quality gap models; retail inventory-accuracy research.
