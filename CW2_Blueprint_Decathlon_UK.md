@@ -490,3 +490,55 @@ Use these as search leads. Each is a real work, but the edition, pages and year 
 1. **Confirm Decathlon UK** (or name another company).
 2. I can do **live research** to build and date-stamp the data pack (D1–D12) and verify the reference seeds, so your insight and objectives rest on real numbers.
 3. Then proceed section by section from this blueprint, with your approval at each stage and your own writing in the report itself, given the AI rule in §0.
+
+---
+
+## 11. FORMATIVE REVIEW AND HOW TO BUILD ON IT (added after reading the formative)
+
+The formative confirms **Decathlon UK**. It also contains a stronger insight than my §2.1 hypothesis, so it should replace the hypothesis.
+
+### 11.1 What to keep (a marker would reward these)
+| Element | Why it works | Use in the summative |
+|---|---|---|
+| Persona "Ellie" (value-seeking, mobile, reviews, click-and-collect) | It is consistent across sections, and the persona drives the PESTLE "so what" lines. | Keep her. Replace the thin description with evidence-based demographics, needs, preferences and behaviour (§4.3, 1.3). |
+| Prioritised PESTLE with an "Implication" per factor, plus the framework-choice justification (PESTLE over SWOT) | It matches the "structure the analysis, don't describe the framework" clarification. | Keep the style. Expand to 5–6 ranked factors (see 11.3). |
+| **Insight: circular services (Second Life, rental, repair) are differentiated but under-promoted in the channels the persona uses** | It fits a budget-conscious persona: resale and rental are a value proposition, not just a sustainability story. It also feeds first-party data. | Make this the golden-thread insight (§2). |
+| Concrete recommendation (surface resale/rental/repair on product pages and in post-purchase email) | It is specific and actionable. | It becomes the core of Product/Place/Promotion in Task 4. |
+
+### 11.2 Weaknesses a harsh marker would hit (fix before reusing any of it)
+| # | Problem | Fix |
+|---|---|---|
+| 1 | The persona is thin. "Occasional runner, budget-conscious postgraduate professional" gives no age band, income, device, platform or needs data, and it is asserted rather than evidenced. | Triangulate from at least three sources (Sport England, Ofcom/DataReportal, Mintel/GWI). Frame needs as jobs-to-be-done and map them to a journey (Figure 3). |
+| 2 | The Sport England point contradicts itself: participation is "relatively stable" while the share meeting CMO guidelines "falls" from 72.2% to 70.5%. The "fixed customer pool" inference is also weak. | Re-read the dataset, quote the exact measure and age band, and draw only the conclusion the data supports. |
+| 3 | **Under-promotion is asserted, not evidenced.** The whole insight rests on it. | Run a dated audit of product pages, the app and post-purchase emails (sign up and screenshot). Put the evidence in Appendix A and the verdict in Figure 1. This is the single most important piece of primary evidence for the report. |
+| 4 | There is no effectiveness evaluation of channels against competitors (only one Similarweb traffic split). AC3's top band wants "evaluation of the effectiveness of digital activities". | Add benchmarked metrics (traffic mix, app rating, review themes, rival social engagement) and a verdict per channel (F1). |
+| 5 | Weak or unverifiable sources: Latterly, Sprout Social, Retail Times and Edie are secondary or blog-style. GWI (n.d.) and the Mintel store page are landing pages a marker cannot open. The Statista link points to a toys/hobby/DIY e-commerce category, which may not match "sports and outdoor". | Swap for primary or academic sources. Cite the exact report or page you actually read, with a real date. Check the Statista category. Keep the Similarweb and ONS figures only if they reproduce. |
+| 6 | Generic uncited claims, e.g. "well-used loyalty schemes typically lift repeat-purchase rate and basket value". | Support with a peer-reviewed or industry source, or delete. |
+| 7 | One garbled sentence in Customer value ("shortening the specific behaviour, price-checking elsewhere, Decathlon's app is best placed to reduce"). | Rewrite fully in the summative. |
+| 8 | The text says "This blueprint". The formative's own title says "Digital Marketing Value and Environmental Analysis". | In the summative, use "This report" and the brief's headings. |
+| 9 | Every access date is "23 September 2026". That looks like a bulk entry. | Use the true access date for each source. |
+| 10 | The formative has no Political/Legal factor, but the summative's challenge C2 (privacy and measurement) and the Price/Promotion rules (DMCC Act 2024, ASA, PECR) depend on it. | Add Political/Legal. Drop the weakest factor to stay within words. |
+| 11 | Citation edition: you cite Chaffey and Ellis-Chadwick (2019, 7th edn). I listed the 8th edn (2022). | Use whichever edition the BPP library actually holds, and use it consistently. |
+
+### 11.3 Revised golden thread (replaces §2.1)
+
+| Element | Updated version |
+|---|---|
+| Persona | "Ellie" (27, Bristol, mobile-first, price-checks, review-led, click-and-collect). Age band and needs evidenced as in 11.2 #1. |
+| **Insight** | Decathlon UK's circular services (Second Life resale, rental, repair) are a **value-for-money differentiator for price-sensitive customers, but they are not surfaced where Ellie browses (app, product pages, post-purchase email)**. That weakens differentiation from price-led rivals and wastes first-party data. *Proof needed: the audit (11.2 #3).* |
+| O1 (engage) | Increase the share of active app members aged 25–34 who interact with a circular service (view, buy or book Second Life / rental / repair) from [baseline] to [target] in 12 months. |
+| O2 (value) | Raise the 12-month repeat-purchase rate among registered 25–34 members from [baseline] to [target]. Dependency: O1 → O2. |
+| Challenge C1 | Price-led competition (including Decathlon's own "Middle Aisle" discounter push) can blur the value positioning. |
+| Challenge C2 | Consent and tracking limits reduce first-party data and weaken attribution. |
+| Strategy | Position as "the confident, affordable, circular way to start", targeted at the beginner/value persona, with tactics focused on in-journey surfacing and CRM. |
+| 4Ps | Product: circular services integrated into the journey. Price: Second Life as price-ladder entry plus member value. Place: app, product-page placement and click-and-collect or returns hand-offs. Promotion: post-purchase email, short-form proof content, ambassador content. |
+
+**Caveat:** this is the best current hypothesis. If the audit shows circular services already appear prominently, switch to the alternative insights in §2.1 (b) or (c) rather than forcing the thread.
+
+### 11.4 Reuse and integrity
+- **Do not paste the formative into the summative.** Turnitin may match it against your earlier submission. Rewrite from scratch and expand, and ask your tutor whether self-reuse needs declaring.
+- The formative's 989 words become a seed, not a section: about 960 words in Task 1 must cover the audit, PESTLE, persona, journey and value in far more depth than the formative does.
+- Any AI use on the formative must also be consistent with the cover-sheet declaration you make for the summative.
+
+### 11.5 Updated next step
+Send me any formative feedback or mark you received. The tutor's comments are the best predictor of what this marker values. Then I can research and verify the data pack (D1–D12), with the audit design in 11.2 #3 as priority one.
