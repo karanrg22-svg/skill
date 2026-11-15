@@ -97,11 +97,11 @@ Context (UK sports retail, digital behaviour)
    → Control: KPIs that map back to O1/O2
 ```
 
-### 2.1 Working hypotheses (check them against the data; rewrite the thread if the data disagrees)
+### 2.1 Working hypotheses (SUPERSEDED by §11.3 for persona and insight; kept as fallback options)
 
 | Element | Working hypothesis | What to prove or disprove |
 |---|---|---|
-| **Persona** ("Maya", fictional) | UK, 25–34, urban, beginner-to-intermediate, taking up running, gym or cycling. Value-conscious, mobile-first, researches via YouTube, TikTok, Reddit and search, then buys omnichannel. Needs: affordable quality, guidance, fit and size confidence, and low risk from trying a new activity. Triggers: New Year, a first event (10k), a life change. | Triangulate from **Sport England Active Lives, Ofcom Online Nation, DataReportal UK, Mintel/GWI/Kantar snippets** and Decathlon's own channel behaviour. Avoid stereotypes. Note the limits of personas (Pruitt and Grudin, 2003; Cooper, 1999). |
+| **Persona** ("Ellie" (from your formative), fictional) | UK, 25–34, urban, beginner-to-intermediate, taking up running, gym or cycling. Value-conscious, mobile-first, researches via YouTube, TikTok, Reddit and search, then buys omnichannel. Needs: affordable quality, guidance, fit and size confidence, and low risk from trying a new activity. Triggers: New Year, a first event (10k), a life change. | Triangulate from **Sport England Active Lives, Ofcom Online Nation, DataReportal UK, Mintel/GWI/Kantar snippets** and Decathlon's own channel behaviour. Avoid stereotypes. Note the limits of personas (Pruitt and Grudin, 2003; Cooper, 1999). |
 | **Insight (hypothesis)** | Decathlon UK's value proposition (broad range, own-brand value, in-house expertise) is **under-expressed in the digital journey** at the consideration stage. Brand-led rivals dominate beginner content and social attention, and a **fit/trust gap** weakens mobile conversion and repeat purchase. | Competitor engagement benchmarks, share of search (Google Trends), app ratings and review themes (Trustpilot, Google Play/App Store), Similarweb channel mix. Three candidate insights are worth testing, and the best-evidenced one wins: (a) the awareness-to-consideration gap, (b) the mobile conversion and sizing/fit friction, (c) the omnichannel handoff (online research → store/click-and-collect). |
 | **O1 (engage)** | Increase monthly active app users aged 25–34 by X% within 12 months. | App analytics baseline, benchmark growth rates. |
 | **O2 (value)** | Raise the 12-month repeat purchase rate among registered 25–34 members by Y percentage points. | CRM baseline. The theoretical link is engagement → loyalty (O1 feeds O2). |
